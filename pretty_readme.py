@@ -111,7 +111,7 @@ def main():
 
     out_path = "README.md"
     with open(out_path, "w", encoding="utf-8") as f:
-        f.write("python 2d dictionary of all AC dan courses from 7th dan - kaiden feel free to add PR with new stuff or kyu courses I am just lazy")
+        f.write("python 2d dictionary of all AC dan courses from 7th dan - kaiden feel free to add PR with new stuff or kyu courses I am just lazy \n")
         f.write(md)
 
     print(f"Wrote {out_path}")
